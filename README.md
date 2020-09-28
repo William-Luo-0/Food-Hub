@@ -1,4 +1,4 @@
-Group project for CPSC 304 on databases.
+Group project for CPSC 304 on databases. For distribution of work contact me directly, project was originally on a separate group member's BitBucket repository.
 
 ### Objective
 

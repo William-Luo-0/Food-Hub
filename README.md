@@ -1,13 +1,12 @@
+Group project for CPSC 304 on databases.
 
-# README
-  
-Personally I like using WAMP on Windows, if you're on a different platform you'll have to figure out how to set up the appropriate equivalent for that platform.  
-  
-I usually add a line to my hosts file and set up a virtual host in Apache to give myself a nice url eg. http://inventory.local  
-  
+### Objective
+
+Demonstrate database operations such as inserts, deletes, updates, joins, ect.
+Project was created with a focus on using PHP.
+Database is a MySQL database.
+
 ### Setup
-  
-I've created a database on my local machine using the definitions that we've created in M3 and exported it to a file after getting it all to work and adding some auto_increments (which will make adding new values easier in some cases).
 
 PHP 7.0+ is required for some code to work.
   
@@ -28,7 +27,7 @@ Update the config.php file to your specific set-up if necessary.
 
 The report.pdf file has some hyperlinks in it which link to specific SQL queries which fulfill each rubric item. This should streamline things quite a bit.
 The entire demo can be done from the restaurant perspective as all of the required query types have been implemented for restaurants but not necessarily others. Thus it makes the most sense to log in as a restaurant for demo purposes.
-It should also be noted that although most things work and are tied together, this software is not 100% completed or in a sellable state. Yet, according to [Piazza @706](https://piazza.com/class/k4d36n4nx1n73z?cid=706) all expected/required elements are there.
+It should also be noted that although most things work and are tied together, this software is not 100% completed or in a sellable state. Yet, according to [outdated course forum link) all expected/required elements are there.
 
 ### Bonus Details
 
@@ -36,5 +35,5 @@ It should also be noted that although most things work and are tied together, th
 - Animations created from CSS and Javascript appear in many areas such as the homepage login banner,
 buttons, and forms.
 - Maps for the restaurant and wholesaler pages were added with the Google Maps API and Geocoder to
-convert addresses into latitude and longitude.
+convert addresses into latitude and longitude. (API key has been removed by me (William Luo)
 - Session variables are used to personalize pages to specific user types.

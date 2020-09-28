@@ -13,7 +13,7 @@ PHP 7.0+ is required for some code to work.
 To get the git repo on your machine, you can either git clone or run the following commands in an existing folder:  
 
 - git init  
-- git remote add origin git@bitbucket.org:gvanesch/cpsc-304.git  
+- git remote add origin git@bitbucket.org:gvanesch/cpsc-304.git  (Not sure if currently private.)
 - git pull origin master
 
 Then import the database by running either of the following from the database folder (not both; they give the same result):

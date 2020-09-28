@@ -1,0 +1,211 @@
+/*body {*/
+/*    padding-top: 5rem;*/
+/*}*/
+
+header {
+    height: 75px;
+    background-image: linear-gradient(rgb(0,190,245),rgb(0,150,205));
+    color: white;
+}
+
+.jumbotron {
+    border: 1px solid rgb(214, 214, 214);
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(150, 189, 205));
+}
+
+#registerToday {
+    height: 75px;
+    background-image: linear-gradient(rgb(0,190,245),rgb(0,150,205));
+    color: white;
+}
+
+#jumbotronHomePage {
+    border: none;
+    background-image: none;
+    background-color: white;
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+
+#hrHomePage {
+    border-top: 1px solid rgba(0,0,0,0.1);
+    height: 1px;
+    background: #333 linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.LandingText {
+    font-family: 'Merriweather Sans', serif;
+    display: flex;
+    position: absolute;
+    top: 175px;
+    left: 40px;
+    width: 300px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.TextShadow {
+    text-shadow: 2px 2px 2px #222222;
+}
+
+#RestaurantLanding {
+    height: 550px;
+    background-image: url("../images/landing/RestaurantLanding.png");
+    background-repeat: no-repeat;
+    transition: none;
+}
+
+#RestaurantLanding:hover, #restaurantLanding:focus {
+    background-image: url("../images/landing/RestaurantLandingGrey.png");
+    transition: 0.5s ease;
+}
+
+body:after{
+    display:none;
+    content: url("../images/landing/RestaurantLandingGrey.png") url("../images/landing/WholesalerLandingGrey.png") url("../images/landing/CustomerLandingGrey.png");
+}
+
+#WholesalerLanding {
+     height: 550px;
+     background-image: url("../images/landing/WholesalerLanding.png");
+     background-repeat: no-repeat;
+     transition: none;
+ }
+
+#WholesalerLanding:hover, #WholesalerLanding:focus {
+    background-image: url("../images/landing/WholesalerLandingGrey.png");
+    transition: 0.5s ease;
+}
+
+#CustomerLanding {
+    height: 550px;
+    background-image: url("../images/landing/CustomerLanding.png");
+    background-repeat: no-repeat;
+    transition: none;
+}
+
+#CustomerLanding:hover, #CustomerLanding:focus {
+    background-image: url("../images/landing/CustomerLandingGrey.png");
+    transition: 0.5s ease;
+}
+
+#restaurantSplash {
+    height: 400px;
+    background-repeat: no-repeat;
+    background-image: url("../images/landing/RestaurantSplash.png");
+}
+
+#restaurantSplashText {
+    position: absolute;
+    height: 200px;
+    width: 650px;
+    top: 130px;
+    right: 455px;
+}
+
+#wholesalerSplash {
+    height: 400px;
+    background-repeat: no-repeat;
+    background-image: url("../images/landing/WholesalerSplash.png");
+}
+
+#wholesalerSplashText {
+    position: absolute;
+    height: 200px;
+    width: 650px;
+    top: 130px;
+    left: 445px;
+}
+
+#customerSplash {
+    height: 400px;
+    background-repeat: no-repeat;
+    background-image: url("../images/landing/CustomerSplash.png");
+}
+
+#customerSplashText {
+    position: absolute;
+    height: 200px;
+    width: 650px;
+    top: 130px;
+    left: 400px;
+}
+
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+.item-template {
+    padding: 3rem 1.5rem 0rem 3rem;
+    text-align: center;
+}
+
+.order-template {
+    padding: 3rem 1.5rem 0rem 3rem;
+}
+
+.error-text {
+    color: #ff0000;
+    text-align:center;
+    font-size: 1.5em;
+}
+
+.success-text {
+    color: #00aa00;
+    text-align:center;
+    font-size: 1.5em;
+}
+
+.item-card {
+    background: #343a40;
+    border-radius: 50px;
+    color: #ffffff;
+    padding: 4rem;
+}
+
+.plain-anchor {
+    display: block;
+    color: inherit;
+}
+
+th a, th a:hover {
+    display: block;
+    color: inherit;
+}
+
+.btn-clear-light, .btn-clear-light:visited {
+    color: #fff;
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 0;
+}
+
+.btn-clear-light:hover {
+    color: #333;
+    background: #eee;
+}
+
+.btn-clear-light:active, .btn-clear-light:focus {
+    color: #333;
+    background-color: #ddd;
+}
+
+.soft-transition {
+    transition: all 0.25s ease-out;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+}
+
+.trashcan {
+    background: none;
+    border: none;
+    color:red;
+    cursor: pointer;
+    position:absolute;
+    right:1px;
+}
